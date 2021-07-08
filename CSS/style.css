@@ -120,6 +120,7 @@ body{
         grid-template-columns: 1fr 2fr;
         padding: 3rem 3rem;
         justify-content: start;
+        height: 65vh;
     }
     .intro_heading{
         font-size: 2rem;
