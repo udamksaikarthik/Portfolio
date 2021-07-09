@@ -50,6 +50,8 @@ body{
 }
 .tag_line{
     background-color: greenyellow;
+    font-family: Stencil Std, fantasy;
+    font-weight: bold;
     position: absolute;
     left: 25%;
     text-indent: 4rem;
@@ -86,6 +88,8 @@ body{
 }
 
 
+
+
 @media(max-width:780px){
     .nav{
        display: none;
@@ -117,15 +121,21 @@ body{
         display: block;
     }
     .intro_section{
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
         padding: 3rem 3rem;
         justify-content: start;
         height: 65vh;
     }
     .intro_heading{
         font-size: 2rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .stringName{
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size: 3rem;
     }
     .tag_line{
+    font-family: Stencil Std, fantasy;
     width: 330px;
     left: 12%;
     font-size: 1.5rem;
