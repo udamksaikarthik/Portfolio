@@ -316,7 +316,6 @@ body{
 
 .Projects{
     height: 100vh;
-    background-color: lightgray;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -366,6 +365,11 @@ body{
 
 .content-footer{
     text-align: center;
+}
+
+.project-2{
+    display: inline-flex;
+    padding-top: 10rem;
 }
 
 @media(max-width:780px){
