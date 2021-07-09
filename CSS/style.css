@@ -50,14 +50,14 @@ body{
 }
 .tag_line{
     background-color: greenyellow;
-    font-family: Stencil Std, fantasy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     position: absolute;
     left: 25%;
-    text-indent: 4rem;
+    text-indent: 12rem;
     text-align: center;
     width: 900px;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 .intro_img{
     width:300px;
@@ -69,11 +69,13 @@ body{
     grid-row: span 2;
 }
 
-.intro_heading{
+.intro_heading{  
+    font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
     font-size: 2.5rem;
 }
 .stringName{
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 4rem;
 }
@@ -128,16 +130,15 @@ body{
     }
     .intro_heading{
         font-size: 2rem;
-        font-family: 'Times New Roman', Times, serif;
     }
     .stringName{
-        font-family: Brush Script MT, Brush Script Std, cursive;
         font-size: 3rem;
     }
     .tag_line{
     font-family: Stencil Std, fantasy;
     width: 330px;
     left: 12%;
+    text-indent: 4rem;
     font-size: 1.5rem;
     }
     .intro_img{
@@ -145,6 +146,6 @@ body{
         height: 200px
     }
     .grid-item2 {
-        padding-left: 10px;
+        padding-left: 12px;
     }
 }
