@@ -503,7 +503,7 @@ body{
     text-decoration: underline;
 }
 
-.About_Header{
+.About_Header,.contactHeader{
     text-align: center;
     text-decoration: underline;
 }
@@ -530,6 +530,18 @@ body{
     text-align: end;
     padding-right: 30px;
     padding-bottom: 30px;
+}
+.contactMe{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmail-id{
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 @media(max-width:780px){
@@ -745,7 +757,7 @@ body{
         font-size: 0.5rem;
     }
     .About{
-        height: 50vh;
+        height: 40vh;
     }
     .block-container{
         padding: 1rem 2rem;
