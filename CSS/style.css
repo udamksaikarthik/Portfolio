@@ -464,7 +464,7 @@ body{
     .Quote_firstLine_content{
         position: absolute;
         font-size: 1rem;
-        top: 40%;
+        top: 44%;
         left: 12px;
         background-color: chartreuse;
         transform: translateX(0);
@@ -485,14 +485,14 @@ body{
         transition: ease-in-out 1s;
         background-color: rgb(174, 95, 206);
         right: 10px;
-        top: 60%;
+        top: 56%;
     }
     .QuoteBy{
-        font-size: 0.5rem;
+        font-size: 0.75rem;
         display: flex;
         transition: 1s;
         position: absolute;
-        top: 70%;
+        top: 65%;
         right: 20px;
     }
     .Skills_Main_Container{
