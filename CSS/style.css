@@ -499,6 +499,39 @@ body{
     }
 }
 
+.Projects_heading, .Skills_header{
+    text-decoration: underline;
+}
+
+.About_Header{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.About{
+    height: 80vh;
+}
+.block-container{
+    
+    padding: 3rem 18rem;
+}
+.content{
+    background-color: rgb(223, 218, 218);
+    font-size: 2rem;
+    text-align: start;
+    padding: 1rem;
+}
+.about-footer{
+    background-color: rgb(223, 218, 218);
+    text-align: center;
+}
+.myName{
+    background-color: rgb(223, 218, 218);
+    text-align: end;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
 @media(max-width:780px){
     .nav{
        display: none;
@@ -710,5 +743,11 @@ body{
     }
     .QuoteBy3{
         font-size: 0.5rem;
+    }
+    .About{
+        height: 50vh;
+    }
+    .block-container{
+        padding: 1rem 2rem;
     }
 }
