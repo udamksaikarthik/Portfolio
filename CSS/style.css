@@ -77,7 +77,7 @@ body{
 .stringName{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 6rem;
 }
 .grid-item2{
     padding-left: 2rem;
@@ -89,6 +89,56 @@ body{
     box-shadow: 8px 16px 12px #888888;
 }
 
+.Quote_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+.Quote_container:hover .Quote_firstLine_content{
+    transform: translateX(0%);
+}
+.Quote_container:hover .Quote_secondLine_content{
+    transform: translateX(0%);
+}
+.Quote_container:hover .Quote_thirdLine_content{
+    transform: translateX(0%);
+}
+.Quote_container:hover .QuoteBy{
+    display: flex;
+}
+.Quote_firstLine_content{
+    position: absolute;
+    top: 35%;
+    left: 12rem;
+    background-color: chartreuse;
+    transform: translateX(-151%);
+    transition: ease-in-out 1s;
+}
+.Quote_secondLine_content{
+    position: absolute;
+    transform: translateX(-400%);
+    transition: ease-in-out 1s;
+    background-color: rgb(202, 171, 31);
+    top: 45%;
+}
+.Quote_thirdLine_content{
+    position: absolute;
+    transform: translateX(-400%);
+    transition: ease-in-out 1s;
+    background-color: rgb(132, 33, 172);
+    right: 10rem;
+    top: 55%;
+}
+.QuoteBy{
+    display: none;
+    transition: 1s;
+    position: absolute;
+    top: 65%;
+    right: 20px;
+}
 
 
 
@@ -126,7 +176,7 @@ body{
         grid-template-columns: 1fr 1fr;
         padding: 3rem 3rem;
         justify-content: start;
-        height: 65vh;
+        height: 40vh;
     }
     .intro_heading{
         font-size: 2rem;
@@ -147,5 +197,43 @@ body{
     }
     .grid-item2 {
         padding-left: 12px;
+    }
+    .Quote_container{
+        height: 40vh;
+    }
+
+    .Quote_firstLine_content{
+        position: absolute;
+        font-size: 1rem;
+        top: 40%;
+        left: 12px;
+        background-color: chartreuse;
+        transform: translateX(0);
+        transition: ease-in-out 1s;
+    }
+    .Quote_secondLine_content{
+        font-size: 1rem;
+        position: absolute;
+        transform: translateX(0);
+        transition: ease-in-out 1s;
+        background-color: rgb(202, 171, 31);
+        top: 50%;
+    }
+    .Quote_thirdLine_content{
+        font-size: 1rem;
+        position: absolute;
+        transform: translateX(0);
+        transition: ease-in-out 1s;
+        background-color: rgb(132, 33, 172);
+        right: 10px;
+        top: 60%;
+    }
+    .QuoteBy{
+        font-size: 0.5rem;
+        display: flex;
+        transition: 1s;
+        position: absolute;
+        top: 70%;
+        right: 20px;
     }
 }
