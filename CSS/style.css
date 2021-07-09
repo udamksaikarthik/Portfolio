@@ -174,7 +174,8 @@ body{
 .Java_fill{
     height: 40px;
     background-color: rgb(112, 206, 223);
-    width: 80%;
+    width: 0%;
+    transition: ease-in-out 1s;
 }
 .Java_per{
     position: absolute;
@@ -196,7 +197,8 @@ body{
 .Spring_fill{
     height: 40px;
     background-color: rgb(112, 206, 223);
-    width: 80%;
+    width: 0%;
+    transition: ease-in-out 1s;
 }
 .Spring_per{
     position: absolute;
@@ -218,7 +220,8 @@ body{
 .Html_fill{
     height: 40px;
     background-color: rgb(112, 206, 223);
-    width: 70%;
+    width: 0%;
+    transition: ease-in-out 1s;
 }
 .Html_per{
     position: absolute;
@@ -240,7 +243,8 @@ body{
 .CSS_fill{
     height: 40px;
     background-color: rgb(112, 206, 223);
-    width: 50%;
+    width: 0%;
+    transition: ease-in-out 1s;
 }
 .CSS_per{
     position: absolute;
@@ -262,7 +266,8 @@ body{
 .JS_fill{
     height: 40px;
     background-color: rgb(112, 206, 223);
-    width: 30%;
+    width: 0%;
+    transition: ease-in-out 1s;
 }
 .JS_per{
     position: absolute;
@@ -288,8 +293,80 @@ body{
     font-weight: bold;
 }
 
+.Skills_Main_Container:hover .Spring_fill{
+    width: 80%;
+}
+.Skills_Main_Container:hover .Java_fill{
+    width: 80%;
+}
+.Skills_Main_Container:hover .Html_fill{
+    width: 70%;
+}
+.Skills_Main_Container:hover .CSS_fill{
+    width: 50%;
+}
+.Skills_Main_Container:hover .JS_fill{
+    width: 30%;
+}
+
+.Skills_header{
+    font-size: 3rem;
+}
 
 
+.Projects{
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-1{
+    margin-top: 1rem;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10rem;
+
+}
+
+.left{
+    width: 100%;
+    height: 50%;
+    padding: 0 2rem;
+}
+
+.project-1-anchor{
+    background-image: url("Images/CountDownProject.JPG");
+    background-size: cover;
+    background-position: top;
+}
+
+.project-1-image{
+    width: 100%;
+    height: 350px;
+}
+
+.right{
+    width: 100%;
+    height: 50%;
+    padding: 0 2rem;
+}
+
+.Projects_heading,.project-header{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.content{
+    font-size: 1.5rem;
+}
+
+.content-footer{
+    text-align: center;
+}
 
 @media(max-width:780px){
     .nav{
@@ -398,7 +475,40 @@ body{
         width: 250px;
         height: 25px;
     }
+    .Java_fill,.Spring_fill{
+        width: 80%;
+    }
+    .Html_fill,.MDM_fill{
+        width: 80%;
+    }
+    .CSS_fill{
+        width:50%;
+    }
+    .JS_fill{
+        width: 30%;;
+    }
     .Java_per,.Spring_per,.Html_per,.CSS_per,.JS_per,.MDM_per{
         right: 5px;
+    }
+    .Projects{
+        height: 60vh;
+    }
+    .project-1{
+        padding: 0 1rem;;
+    }
+    .left,.right{
+        padding: 0 0.5rem;
+    }
+    .project-1-image{
+        height: 200px;
+    }
+    .project-header{
+        font-size: 1.2rem;
+    }
+    .content{
+        font-size: 12px;
+    }
+    .content-footer{
+        font-size: 10px;
     }
 }
