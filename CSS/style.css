@@ -10,7 +10,7 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: lightgray;
+    background-color: white;
 }
 .logo{
     padding: 10px;
@@ -303,8 +303,8 @@ body{
     }
     .hamburger-button{
         font-size: 2rem;
+        background-color: white;
         border: none;
-        background-color: lightgray;
         border-radius: 7px;
     }
     body{
