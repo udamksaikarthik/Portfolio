@@ -121,14 +121,14 @@ body{
     position: absolute;
     transform: translateX(-400%);
     transition: ease-in-out 1s;
-    background-color: rgb(202, 171, 31);
+    background-color: rgb(236, 212, 102);
     top: 45%;
 }
 .Quote_thirdLine_content{
     position: absolute;
     transform: translateX(-400%);
     transition: ease-in-out 1s;
-    background-color: rgb(132, 33, 172);
+    background-color: rgb(190, 103, 224);
     right: 10rem;
     top: 55%;
 }
@@ -475,7 +475,7 @@ body{
         position: absolute;
         transform: translateX(0);
         transition: ease-in-out 1s;
-        background-color: rgb(202, 171, 31);
+        background-color: rgb(228, 200, 79);
         top: 50%;
     }
     .Quote_thirdLine_content{
@@ -483,7 +483,7 @@ body{
         position: absolute;
         transform: translateX(0);
         transition: ease-in-out 1s;
-        background-color: rgb(132, 33, 172);
+        background-color: rgb(174, 95, 206);
         right: 10px;
         top: 60%;
     }
