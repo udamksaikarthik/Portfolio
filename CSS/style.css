@@ -606,11 +606,20 @@ body{
         width: 250px;
         height: 25px;
     }
-    .Java_fill,.Spring_fill{
+    .Java_fill,.Spring_fill,.MDM_fill{
         width: 80%;
+        overflow: hidden; 
     }
-    .Html_fill,.MDM_fill{
-        width: 80%;
+    .animation_java_fill{
+        height: 40px;
+        animation: load 1.5s linear 0s infinite alternate;
+    }
+    .animation_html_fill{
+        height: 40px;
+        animation: load 1.5s linear 0s infinite alternate;
+    }
+    .Html_fill{
+        width: 70%;
     }
     .CSS_fill{
         width:50%;
@@ -618,6 +627,33 @@ body{
     .JS_fill{
         width: 30%;;
     }
+
+@keyframes load {
+    0%{
+        width: 0%;
+    }
+    20%{
+        width: 20%;
+        background-color: rgb(59, 161, 110);
+    }
+    40%{
+        width: 40%;
+        background-color: rgb(224, 226, 76);
+    }
+    60%{
+        width: 60%;
+        background-color: rgb(15, 73, 180);
+    }
+    80%{
+        width: 80%;
+        background-color: rgb(200, 75, 204);
+    }
+    100%{
+        width: 100%;
+        background-color: rgb(224, 48, 42);
+    }
+}
+
     .Java_per,.Spring_per,.Html_per,.CSS_per,.JS_per,.MDM_per{
         right: 5px;
     }
