@@ -139,6 +139,155 @@ body{
     top: 65%;
     right: 20px;
 }
+.Skills_Main_Container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.Skills_header{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.Skills{
+    position: ;
+}
+.skills_table{
+    text-align: center;
+    padding: 1rem 1rem;
+}
+.skills_table td{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.Java{
+    position: relative;
+    background-color: lightgray;
+    width: 1000px;
+    height: 40px;
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.Java_fill{
+    height: 40px;
+    background-color: rgb(112, 206, 223);
+    width: 80%;
+}
+.Java_per{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-weight: bold;
+    transform: translateY(-50%);
+}
+
+.Spring{
+    position: relative;
+    background-color: lightgray;
+    width: 1000px;
+    height: 40px;
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.Spring_fill{
+    height: 40px;
+    background-color: rgb(112, 206, 223);
+    width: 80%;
+}
+.Spring_per{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-weight: bold;
+    transform: translateY(-50%);
+}
+
+.Html{
+    position: relative;
+    background-color: lightgray;
+    width: 1000px;
+    height: 40px;
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.Html_fill{
+    height: 40px;
+    background-color: rgb(112, 206, 223);
+    width: 70%;
+}
+.Html_per{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-weight: bold;
+    transform: translateY(-50%);
+}
+
+.CSS{
+    position: relative;
+    background-color: lightgray;
+    width: 1000px;
+    height: 40px;
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.CSS_fill{
+    height: 40px;
+    background-color: rgb(112, 206, 223);
+    width: 50%;
+}
+.CSS_per{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-weight: bold;
+    transform: translateY(-50%);
+}
+
+.JavaScript{
+    position: relative;
+    background-color: lightgray;
+    width: 1000px;
+    height: 40px;
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.JS_fill{
+    height: 40px;
+    background-color: rgb(112, 206, 223);
+    width: 30%;
+}
+.JS_per{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-weight: bold;
+    transform: translateY(-50%);
+}
+
+.Skills{
+    display: grid;
+    grid-gap: 2rem;
+}
+
+.sk{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: center;
+    align-items: center;
+}
+.skill_name{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
 
 
 
@@ -235,5 +384,18 @@ body{
         position: absolute;
         top: 70%;
         right: 20px;
+    }
+    .sk{
+       padding-left: 15px; 
+    }
+    .skill_name{
+        font-size: 1rem;
+    }
+    .Java,.Spring,.Html,.CSS,.JavaScript,.MDM{
+        width: 250px;
+        height: 25px;
+    }
+    .Java_per,.Spring_per,.Html_per,.CSS_per,.JS_per,.MDM_per{
+        right: 5px;
     }
 }
