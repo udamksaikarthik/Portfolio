@@ -385,6 +385,9 @@ body{
         top: 70%;
         right: 20px;
     }
+    .Skills_Main_Container{
+        height: 50vh;
+    }
     .sk{
        padding-left: 15px; 
     }
