@@ -64,6 +64,11 @@ body{
     height: 450px;
     position: relative;
     z-index: 2;
+    transition: ease-in-out 1s;
+}
+
+.intro_img:hover{
+    transform: scaleX(1.2) scaleY(1.2);
 }
 .grid-item1{
     grid-row: span 2;
@@ -103,20 +108,36 @@ body{
 .Quote_container:hover .Quote_secondLine_content{
     transform: translateX(0%);
 }
+.Quote_container:hover .Quote_secondLine_content:hover{
+    transform: scaleX(1.2) scaleY(1.2);
+}
 .Quote_container:hover .Quote_thirdLine_content{
     transform: translateX(0%);
 }
+.Quote_container:hover .Quote_thirdLine_content:hover{
+    transform: scaleX(1.2) scaleY(1.2);
+}
+
 .Quote_container:hover .QuoteBy{
     display: flex;
 }
+
+.Quote_container:hover .QuoteBy:hover{
+    transform: scaleX(1.2) scaleY(1.2);
+    font-size: 1.5rem;
+}
 .Quote_firstLine_content{
     position: absolute;
-    top: 35%;
+    top: 39%;
     left: 12rem;
     background-color: chartreuse;
     transform: translateX(-151%);
     transition: ease-in-out 1s;
 }
+.Quote_container:hover .Quote_firstLine_content:hover{
+    transform: scaleX(1.2) scaleY(1.2);
+}
+
 .Quote_secondLine_content{
     position: absolute;
     transform: translateX(-400%);
@@ -130,7 +151,7 @@ body{
     transition: ease-in-out 1s;
     background-color: rgb(190, 103, 224);
     right: 10rem;
-    top: 55%;
+    top: 51%;
 }
 .QuoteBy{
     display: none;
@@ -315,7 +336,7 @@ body{
 
 
 .Projects{
-    height: 100vh;
+    height: 130vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -346,6 +367,11 @@ body{
 .project-1-image{
     width: 100%;
     height: 350px;
+    transition: ease-in-out 1s;
+}
+
+.project-1-image:hover{
+    transform: scaleX(1.2) scaleY(1.2);
 }
 
 .right{
@@ -384,8 +410,12 @@ body{
 .Quote2__line1_content{
     position: absolute;
     left: 10rem;
-    top:45%;
+    top:44%;
     background-color: lightgreen;
+    transition: ease-in-out 1s;
+}
+.Quote2__line1_content:hover{
+    transform: scaleX(1.2) scaleY(1.2);
 }
 
 .Quote2__line2_content{
@@ -393,12 +423,80 @@ body{
     right: 5rem;
     top:50%;
     background-color: lightcoral;
+    transition: ease-in-out 1s;
+}
+.Quote2__line2_content:hover{
+    transform: scaleX(1.2) scaleY(1.2);
 }
 
 .QuoteBy2{
     position: absolute;
     top: 60%;
     right: 20px;
+    transition: ease-in-out 1s;
+}
+.QuoteBy2:hover{
+    transform: scaleX(1.2) scaleY(1.2);
+    font-size: 2rem;
+}
+
+.Quote3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Quote_3_line1{
+    background-color: rgb(77, 247, 77);
+    position: absolute;
+    font-size: 1.2rem;
+    left: 10rem;
+    top:45%;
+    animation-name: Quote_3_line1;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+.Quote_3_line1:hover {
+    animation-play-state: paused;
+}
+.Quote_3_line2{
+    background-color: rgb(255, 184, 78);
+    position: absolute;
+    font-size: 1.2rem;
+    right: 10rem;
+    top:52%;
+    animation-name: Quote_3_line1;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+.Quote_3_line2:hover {
+    animation-play-state: paused;
+}
+.QuoteBy3{
+    position: absolute;
+    right: 30px;
+    top:60%;
+    transition: ease-in-out 1s;
+}
+.QuoteBy3:hover{
+    font-size: 1.5rem;
+}
+
+@keyframes Quote_3_line1 {
+    from{
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 @media(max-width:780px){
@@ -561,5 +659,20 @@ body{
         top:53%;
         right: 5px;
         font-size: 12px;
+    }
+    .Quote3{
+        height: 40vh;
+    }
+    .Quote_3_line1{
+        left: 15px;
+        font-weight: 700;
+        font-size: 7px;
+    }
+    .Quote_3_line2{
+        right: 10px;
+        font-size: 10px;
+    }
+    .QuoteBy3{
+        font-size: 0.5rem;
     }
 }
