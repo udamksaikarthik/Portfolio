@@ -576,7 +576,7 @@
         display: flex;
         right: 0;
         top: 50%;
-        transform: translateY(-50%);
+        transform: translateY(-60%);
     }
     .hamburger-button{
         font-size: 2rem;
@@ -786,10 +786,10 @@
     }
 
     .darkgray_theme{
-        border-radius: 15px;
+        border-radius: 20px;
         font-weight: bold;
-        height: 15px;
-        width: 15px;
+        height: 20px;
+        width: 20px;
         padding: 5px;
         border: none;
         background-color: rgb(97, 91, 91);
@@ -806,6 +806,6 @@
         top:8%;
     }
     .main_container{
-            padding: 2rem 1.5rem;
+            padding: 3rem 1.5rem;
     }
 }
