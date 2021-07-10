@@ -27,8 +27,88 @@
     border: none;
     background-color: rgb(97, 91, 91);
     position: absolute;
-    top: 80px;
+    top: 20px;
     right: 15px;
+}
+
+.blue_theme{
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    padding: 1rem;
+    border: none;
+    background-color: #659DBD;
+    position: absolute;
+    top: 60px;
+    right: 15px;
+}
+
+.body.blue{
+    background-color: #659DBD;
+}
+
+.blue_theme.active{
+    background-color: white;
+}
+
+.pink_theme{
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    padding: 1rem;
+    border: none;
+    background-color: #F64C72;
+    position: absolute;
+    top: 100px;
+    right: 15px;
+}
+
+.body.pink{
+    background-color: #F64C72;
+}
+
+.pink_theme.active{
+    background-color: white;
+}
+
+.cream_theme{
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    padding: 1rem;
+    border: none;
+    background-color: #EDC7B7;
+    position: absolute;
+    top: 140px;
+    right: 15px;
+}
+
+.body.cream{
+    background-color: #EDC7B7;
+}
+
+.cream_theme.active{
+    background-color: white;
+}
+
+.lightwhite_theme{
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    padding: 1rem;
+    border: none;
+    background-color: #EAE7DC;
+    position: absolute;
+    top: 180px;
+    right: 15px;
+}
+
+.body.lightwhite{
+    background-color: #EAE7DC;
+}
+
+.lightwhite_theme.active{
+    background-color: white;
 }
 
 .header{
@@ -796,6 +876,46 @@
         position: absolute;
         top: 10px;
         right: 15px;
+    }
+
+    .blue_theme,.pink_theme,.cream_theme,.lightwhite_theme{
+        border-radius: 20px;
+        height: 20px;
+        padding: 5px;
+        width: 20px;
+        top: 10px;
+    }
+
+    .blue_theme{
+        right: 45px;
+    }
+    .pink_theme{
+        right: 75px;
+    }
+    .cream_theme{
+        right: 105px;
+    }
+    .lightwhite_theme{
+        right: 135px;
+    }
+    .hamburger-button.pink{
+        background-color: #F64C72;
+        color:black;
+    }
+
+    .hamburger-button.cream{
+        background-color: #EDC7B7;
+        color:black;
+    }
+
+    .hamburger-button.lightwhite{
+        background-color: #EAE7DC;
+        color:black;
+    }
+
+    .hamburger-button.blue{
+        background-color: #659DBD;
+        color:black;
     }
 
     .hamburger-button.active{
