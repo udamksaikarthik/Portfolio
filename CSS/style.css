@@ -637,7 +637,7 @@
 .contactMe{
     height: 30vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
