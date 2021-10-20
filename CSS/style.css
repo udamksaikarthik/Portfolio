@@ -651,6 +651,9 @@
     width: 100%;
     background-color: gray;
 }
+.hamburger-button{
+    color: black;
+}
 
 @media(max-width:780px){
     .nav{
