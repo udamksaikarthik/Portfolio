@@ -647,6 +647,11 @@
     font-weight: bold;
 }
 
+.contactMe{
+    width: 100%;
+    background-color: gray;
+}
+
 @media(max-width:780px){
     .nav{
        display: none;
